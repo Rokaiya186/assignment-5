@@ -1,0 +1,123 @@
+.banner-heading {
+    height: 70px;
+    width: 1300px;
+    background-color: rgb(209, 245, 245);
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    
+}
+.logo {
+    display: flex;
+    padding-left: 30px;
+}
+.checkbox{
+    display: flex;
+    padding-left: 1000px;
+}
+.theme{
+    padding-left: 30px;
+    border: none;
+}
+.task-assigned{
+    display: flex;
+    background-color: rgb(209, 245, 245);
+    height: 70px;
+    width: 140px;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 14px;
+}
+.task-checkbox{
+    height: 20px;
+    width: 20px;
+}
+.task-05{
+    align-items: center;
+    padding-left: 5px;
+}
+.discover{
+    height: 70px;
+    width: 310px;
+    background-color: rgb(92, 92, 182);
+    color: white;
+    align-items: center;
+    display: flex;
+    border-radius: 14px;
+}
+.discover-board{
+    width: 60px;
+    padding-left: 9px;
+}
+.calender{
+    display: flex;
+    background-color: rgb(209, 245, 245);
+    height: 70px;
+    width: 140px;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 14px;
+
+}
+.body-header{
+    display: flex;
+    width: 950px;
+}
+.shopease{
+    width: 230px;
+    height: 260px;
+    background-color: rgb(209, 245, 245);
+    padding-left: 13px;
+    padding-top: 8px;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+.shopease-deadline{
+    display: flex;
+}
+.shopease-heading{
+    height: 30px;
+    width: 75px;
+    background-color: white;
+    align-items: center;
+    padding-top: 9px;
+    padding-left: 9px;
+    border-radius: 3px;
+}
+/* #btn-complete{
+    height: 30px;
+    width: 85px;
+    background-color: rgb(92, 92, 182);
+    align-items: center;
+    padding-top: 9px;
+    padding-left: 9px;
+    border-radius: 3px; 
+    border: none;
+    
+} */
+.body-main{
+    display: flex;
+    width: 950px;
+    height: 325px;
+
+    
+}
+.activity{
+    display: flex;
+    margin-left: 30px;
+}
+.activity-img{
+    height: 20px;
+    width: 20px;
+}
+#activity-btn{
+    height: 40px;
+    width: 75px;
+    background-color: rgb(92, 92, 182);
+    align-items: center;
+    padding-top: 9px;
+    padding-left: 9px;
+    border-radius: 3px; 
+    border: none;
+    margin-left: 30px;
+}
