@@ -41,17 +41,19 @@ document.getElementById('btn-complete-3').addEventListener('click',function(){
     ul.appendChild(p);
 })
 
-document.getElementById('discover').addEventListener('click',function(){
-    const newTab = window.open('index2.html');
+let number = 5;
 
+const button = document.getElementById('btn-complete-1');
+const display = document.getElementById('task-assigned');
 
-newTab.document.querySelector('#discover-btn').click();
+button.addEventListener("click", () => {
+    number--;
+    display.textContent = number;
 })
 
-// let btnClick = document.querySelector('discover');
-// btnClick.addEventListener('click',function(){
-//     window.location.href = "index2.html";
-// })
+
+
+  
 
 
 
